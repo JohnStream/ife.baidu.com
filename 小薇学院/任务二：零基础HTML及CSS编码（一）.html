@@ -3,18 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<title>任务二：零基础HTML及CSS编码（一）</title>
+	<style>
+	/* ==========
+ 	去除浮动
+   ========== */
+	.clearfix:before,
+	.clearfix:after {
+    content: " ";
+    display: table;
+	}
+	.clearfix:after {
+    clear: both;
+	}
+	/* ==========
+ 	main
+   ========== */
+	body{
+		background:#f5f5f5; 
+	}
+	header{
+		background:#000;
+	}
+	article{
+		background: #fff;
+	}
+	p{
+		text-indent:24px;
+	}
+	header #logo{
+		display: inline-block;
+	}
+	header #logo img{
+		height: 50px;
+		margin-left: 30px;
+	}
+	header nav{
+		float: right;
+	}
+	header nav ul{
+	 	
+	}
+	header nav ul li{
+		float: left;
+	}
+	header nav ul li a{
+		text-decoration:none;
+	}
+	header nav ul li a.white{
+		color: white;
+	}
+	header nav ul li a.red{
+		color:red;
+	}
+	</style>
 </head>
 <body>
 	<header>
 	<div id="logo">
 	<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="">
 	</div>
-	<nav>
+	<nav class="clearfix">
 	<ul>
-		<li><a href="#">导航链接一</a></li>
-		<li><a href="#">导航链接一</a></li>
-		<li><a href="#">导航链接一</a></li>
-		<li><a href="#">导航链接一</a></li>
+		<li><a href="#" class="white">导航链接一</a></li>
+		<li><a href="#" class="white">导航链接一</a></li>
+		<li><a href="#" class="white">导航链接一</a></li>
+		<li><a href="#" class="red">导航链接一</a></li>
 	</ul>
 	</nav>
 	</header>
