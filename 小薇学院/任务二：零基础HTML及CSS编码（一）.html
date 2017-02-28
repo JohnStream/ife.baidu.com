@@ -58,6 +58,41 @@
 	article.two ul{
 		list-style-type: none;
 	}
+	#article_list{
+		padding: 0 20px;
+	}
+	article figure{
+		border: solid 1px #000;
+		text-align: center;
+		display: block;
+		width: 200px;
+		height: 200px;
+	}
+	article figure img{
+		width: 150px;
+		height: 100px;
+	}
+	article table{
+		width: 100%;
+	}
+	article table th{
+		background: #000;
+		color: #fff;
+	}
+	table tr:last-child{
+		background: #000;
+		color: #fff;
+	}
+	article form{
+		text-align: center;
+	}
+	article form input[type='submit']{
+		display: block;
+		width: 100%;
+		background: blue;
+		border-radius: 10px;
+		color: #fff;
+	}
 	</style>
 </head>
 <body>
@@ -102,6 +137,7 @@
 	</article>
 	
 	<article>
+	<h3>图片</h3>
 		<figure>
 		<p>好看的图片</p>
 		<img src="http://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/%E8%AF%BE%E7%A8%8B%E9%85%8D%E5%9B%BE.3fb31f3e5af7e8d7.jpg" alt="">
@@ -164,9 +200,9 @@
           <a href="">操作</a></td>
       </tr>
       <tr>
-        <td>51435</td>
+        <td>总计</td>
         <td colspan="2">
-          <a href="">操作</a></td>
+          10000</td>
       </tr>
     </table>
 	</article>
@@ -188,7 +224,8 @@
         <input type="email" placeholder="这是一个文本输入框"></label>
       <br>
       <lable>
-        <input type="radio" name="sex" value="男">男
+      性别
+        <input type="radio" name="sex" value="男" checked="checked">男
         <lable>
           <lable>
             <input type="radio" name="sex" value="女">女
@@ -198,9 +235,10 @@
                 <option value="北京">北京</option>
                 <option value="北京">北京</option>
                 </select>
-                 <input type="checkbox" name="fav">运动
-              <input type="checkbox" name="fav">运动
-              <input type="checkbox" name="fav">运动
+                爱好：
+                 <input type="checkbox" name="fav" value="">运动
+              <input type="checkbox" name="fav" value="">运动
+              <input type="checkbox" name="fav" value="">运动
               <textarea rows="3" cols="20">个人简介</textarea>
               <input type="submit" value="确认提交">
 		</form>
