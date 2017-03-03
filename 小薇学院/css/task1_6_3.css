@@ -122,5 +122,11 @@ section aside p.font3 span{
 
 }
 .article_list{
+	margin: 0;
 	width: 641px;
+	padding: 0 40px;
+}
+.article_list article{
+	display: inline-block;
+	width: calc(32%);
 }
