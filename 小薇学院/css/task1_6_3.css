@@ -14,6 +14,15 @@
 .clearfix:after {
     clear: both;
 }
+body{
+	background: #5d5d5d;
+}
+#content{
+	background: white;
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+}
 header{
 	position: relative;
 	margin: 0 auto;
@@ -55,11 +64,11 @@ section .img_mask{
 .img_mask .mask_green,.img_mask .mask_red{
 	width:191px;
 	height: 301px;
-	opacity: 0.2;
+	opacity: 0.5;
 	position: absolute;
 }
 .img_mask .mask_green{
-	background: green;
+	background: #77ba6d;
 	top: 0;
 	left: 0;
 }
@@ -75,4 +84,43 @@ section aside{
 }
 section aside ul{
 	list-style-type: none;
+}
+section aside ul li{
+	font-size: 12px;
+	color:#676767;
+	font-family: 楷体;
+}
+section aside ul li.big{
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+section aside ul li.big:first-letter{
+	font-size: 24px;
+}
+section aside p.italic{
+	
+	font-style:italic;
+	font-size: 116px;
+	color:#77ba6d;
+	font-family: 微软雅黑;
+}
+section aside p.font2{
+	display: inline-block;
+	color: #cc8091;
+	font-size: 55px;
+	font-family: 微软雅黑;
+}
+section aside p.font3{
+	line-height: 12px;
+	color: #cc8091;
+	font-size:21px;
+	display: inline-block;
+}
+section aside p.font3 span{
+	color: #dbdbdb;
+	font-size:12px;
+
+}
+.article_list{
+	width: 641px;
 }
