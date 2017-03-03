@@ -1,0 +1,78 @@
+/* 临时用 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* ==========
+ 	去除浮动
+   ========== */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+header{
+	position: relative;
+	margin: 0 auto;
+	width: 892px;
+	border-bottom:solid 2px #938e8c;
+}
+header .ife{
+	position: relative;
+	background: #d55d5c;
+	color:white;
+	width: 110px;
+	height: 61px;
+}
+header .ife p{
+	position: absolute;
+	bottom: 0px;
+	font-size: 12px;
+	font-family: "SimHei",黑体;
+}
+header .left_P{
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei",黑体;
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+}
+section{
+	padding: 20px 0px;
+	width: 892px;
+	margin: 0 auto;
+}
+section .img_mask{
+	float: left;
+	position: relative;
+	width: 641px;
+	height: 301px;
+}
+.img_mask .mask_green,.img_mask .mask_red{
+	width:191px;
+	height: 301px;
+	opacity: 0.2;
+	position: absolute;
+}
+.img_mask .mask_green{
+	background: green;
+	top: 0;
+	left: 0;
+}
+.img_mask .mask_red{
+	top: 0;
+	right: 0;
+	background: #d55d5c;
+}
+section aside{
+	float: right;
+	width: 203px;
+	border-top: solid 2px #cc8091;
+}
+section aside ul{
+	list-style-type: none;
+}
