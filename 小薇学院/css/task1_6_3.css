@@ -159,6 +159,38 @@ section aside p.font3 span{
 	font-style: italic;
 	opacity: 0.7;
 }
-.common3 p{
+.common3 p.info{
+	word-spacing:10px;
 	float: left;
+	width: 415px;
+	border-bottom: 2px solid #11456c;
+	font-size: 42px;
+	color: #11456b;
+	font-family: 黑体;
+}
+.common3 p .the{
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: bold;
+	font-style: italic;
+}
+section figure{
+	float: right;
+	position: relative;
+}
+section figcaption{
+	position: absolute;
+	background: #121713;
+	opacity: 0.4;
+	width: 458px;
+	height: 61px;
+	top: 196px;
+}
+section figcaption p{
+	border-left: 3px #72b16a solid;
+	height: 3px;
+	color: white;
+}
+section figcaption .imginfo{
+	color: #72b16a;
 }
