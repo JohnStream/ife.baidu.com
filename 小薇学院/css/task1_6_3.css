@@ -225,10 +225,30 @@ section .pic_art_2 .div_bottom .p1{
 	height: 160px;
 	background: #D55D5C;
 }
-section .pic_art_2 .div_bottom p:last-child{
-	width: 180px;
+section .pic_art_2 .div_bottom .p2{
+	width: 166px;
 	bottom: 0px;
 	right: 0px;
 	height: 160px;
 	position: absolute;
 }
+section .pic_art_2 .div_bottom .p2:before{
+    position: absolute;
+    left: -72px;
+    top: -3px;
+    content: "“";
+    width: 26px;
+    height: 22px;
+    font: normal 72px/72px 黑体;
+    color: #d45d5c;
+}
+section .pic_art_2 .div_bottom .p2:after{
+     position: absolute;
+     right: 8px;
+     bottom: 13px;
+     content: "”";
+     width: 26px;
+     height: 22px;
+     font: normal 72px/72px 黑体;
+     color: #d45d5c;
+ }
