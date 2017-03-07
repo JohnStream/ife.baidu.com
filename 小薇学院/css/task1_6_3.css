@@ -51,6 +51,7 @@ header .left_P{
 	bottom:0px;
 }
 section{
+	border-bottom:1px solid #938e8c;
 	padding: 20px 0px;
 	width: 892px;
 	margin: 0 auto;
@@ -175,7 +176,6 @@ section aside p.font3 span{
 	font-style: italic;
 }
 section figure{
-	float: right;
 	position: relative;
 }
 section figcaption{
@@ -193,4 +193,42 @@ section figcaption p{
 }
 section figcaption .imginfo{
 	color: #72b16a;
+}
+section .pic_art_1{
+	float: left;
+	width: 415px;
+}
+section .pic_art_1 .arti_img{
+}
+section .pic_art_1 img{
+	width:167px;
+	height:  288px;
+	float:right;
+}
+section .pic_art_2{
+	float: right;
+}
+section .pic_art_2 .div_bottom{
+	position: relative;
+width: 459px;
+height: 318px;
+background: #EEEED6;
+}
+section .pic_art_2 .div_bottom ul{
+	list-style-type: none;
+}
+section .pic_art_2 .div_bottom .p1{
+	width: 260px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	height: 160px;
+	background: #D55D5C;
+}
+section .pic_art_2 .div_bottom p:last-child{
+	width: 180px;
+	bottom: 0px;
+	right: 0px;
+	height: 160px;
+	position: absolute;
 }
