@@ -1,0 +1,254 @@
+/* 临时用 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/* ==========
+ 	去除浮动
+   ========== */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+body{
+	background: #5d5d5d;
+}
+#content{
+	background: white;
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+}
+header{
+	position: relative;
+	margin: 0 auto;
+	width: 892px;
+	border-bottom:solid 2px #938e8c;
+}
+header .ife{
+	position: relative;
+	background: #d55d5c;
+	color:white;
+	width: 110px;
+	height: 61px;
+}
+header .ife p{
+	position: absolute;
+	bottom: 0px;
+	font-size: 12px;
+	font-family: "SimHei",黑体;
+}
+header .left_P{
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei",黑体;
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+}
+section{
+	border-bottom:1px solid #938e8c;
+	padding: 20px 0px;
+	width: 892px;
+	margin: 0 auto;
+}
+section .img_mask{
+	float: left;
+	position: relative;
+	width: 641px;
+	height: 301px;
+}
+.img_mask .mask_green,.img_mask .mask_red{
+	width:191px;
+	height: 301px;
+	opacity: 0.5;
+	position: absolute;
+}
+.img_mask .mask_green{
+	background: #77ba6d;
+	top: 0;
+	left: 0;
+}
+.img_mask .mask_red{
+	top: 0;
+	right: 0;
+	background: #d55d5c;
+}
+section aside{
+	float: right;
+	width: 203px;
+	border-top: solid 2px #cc8091;
+}
+section aside ul{
+	list-style-type: none;
+}
+section aside ul li{
+	font-size: 12px;
+	color:#676767;
+	font-family: 楷体;
+}
+section aside ul li.big{
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+section aside ul li.big:first-letter{
+	font-size: 24px;
+}
+section aside p.italic{
+	
+	font-style:italic;
+	font-size: 116px;
+	color:#77ba6d;
+	font-family: 微软雅黑;
+}
+section aside p.font2{
+	display: inline-block;
+	color: #cc8091;
+	font-size: 55px;
+	font-family: 微软雅黑;
+}
+section aside p.font3{
+	line-height: 12px;
+	color: #cc8091;
+	font-size:21px;
+	display: inline-block;
+}
+section aside p.font3 span{
+	color: #dbdbdb;
+	font-size:12px;
+
+}
+.article_list{
+	margin: 0;
+	width: 641px;
+	padding: 0 40px;
+}
+.article_list article{
+	float: left;
+}
+.article_list article{
+	line-height: 16px;
+	display: inline-block;
+	width: calc(32%);
+}
+.article_list h3{
+	font-weight:bold; 
+	text-decoration:underline; 
+	font-size: 16px;
+}
+.article_list h3.what{
+	color: #428854;
+}
+.article_list h3.when{
+	color: #D19A4E;
+}
+.article_list h3.how{
+	color: #CF858C;
+}
+.article_list article ul{
+	position: absolute;
+	list-style-type: none;
+}
+.article_list article ul li span{
+	font-size: 12px;
+	color:#cd4a48;
+	font-family:微软雅黑;
+	font-style: italic;
+	opacity: 0.7;
+}
+.common3 p.info{
+	word-spacing:10px;
+	float: left;
+	width: 415px;
+	border-bottom: 2px solid #11456c;
+	font-size: 42px;
+	color: #11456b;
+	font-family: 黑体;
+}
+.common3 p .the{
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: bold;
+	font-style: italic;
+}
+section figure{
+	position: relative;
+}
+section figcaption{
+	position: absolute;
+	background: #121713;
+	opacity: 0.4;
+	width: 458px;
+	height: 61px;
+	top: 196px;
+}
+section figcaption p{
+	border-left: 3px #72b16a solid;
+	height: 3px;
+	color: white;
+}
+section figcaption .imginfo{
+	color: #72b16a;
+}
+section .pic_art_1{
+	float: left;
+	width: 415px;
+}
+section .pic_art_1 .arti_img{
+}
+section .pic_art_1 img{
+	width:167px;
+	height:  288px;
+	float:right;
+}
+section .pic_art_2{
+	float: right;
+}
+section .pic_art_2 .div_bottom{
+	position: relative;
+width: 459px;
+height: 318px;
+background: #EEEED6;
+}
+section .pic_art_2 .div_bottom ul{
+	list-style-type: none;
+}
+section .pic_art_2 .div_bottom .p1{
+	width: 260px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	height: 160px;
+	background: #D55D5C;
+}
+section .pic_art_2 .div_bottom .p2{
+	width: 166px;
+	bottom: 0px;
+	right: 0px;
+	height: 160px;
+	position: absolute;
+}
+section .pic_art_2 .div_bottom .p2:before{
+    position: absolute;
+    left: -72px;
+    top: -3px;
+    content: "“";
+    width: 26px;
+    height: 22px;
+    font: normal 72px/72px 黑体;
+    color: #d45d5c;
+}
+section .pic_art_2 .div_bottom .p2:after{
+     position: absolute;
+     right: 8px;
+     bottom: 13px;
+     content: "”";
+     width: 26px;
+     height: 22px;
+     font: normal 72px/72px 黑体;
+     color: #d45d5c;
+ }
