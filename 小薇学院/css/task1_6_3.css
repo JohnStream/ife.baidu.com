@@ -106,6 +106,15 @@ section aside ul li {
 	color: #676767;
 	font-family: 楷体;
 }
+section .div_bottom ul li span{
+	font-size: 12px;
+    font-style: italic;
+}
+section .div_bottom ul li:before {
+    margin: 0 7px 0 31px;
+    content: "\25b2";
+    font-size: 12px;
+}
 
 section aside ul li.big {
 	font-size: 20px;
@@ -270,7 +279,41 @@ section .pic_art_2 .div_bottom {
 section .pic_art_2 .div_bottom ul {
 	list-style-type: none;
 }
-
+.p1 span{
+	display: inline-block;
+}
+.p1 span:first-child{
+	color: white;
+	display: inline-block;
+    margin: 8px 0 0 14px;
+    font-family: MicrosoftYaHei;
+    font-size: 110px;
+}
+.p1 span:first-child:after {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: 85px;
+    height: 88px;
+    width: 3px;
+    content: "";
+    background-color: #FFFFFF;
+}
+.p1  span:nth-child(2) {
+    position: absolute;
+    top: 42px;
+    left: 96px;
+    font-family: SimHei;
+    font-size: 21px;
+    font-style: italic;
+}
+.p1 span:last-child {
+    position: absolute;
+    top: 94px;
+    left: 98px;
+    font-size: 12px;
+    font-family: SimHei;
+}
 section .pic_art_2 .div_bottom .p1 {
 	width: 260px;
 	bottom: 0px;
