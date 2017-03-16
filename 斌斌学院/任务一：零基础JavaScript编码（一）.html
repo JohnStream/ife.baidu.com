@@ -23,8 +23,10 @@
   btn=document.getElementById('button');
   intext=document.getElementById('aqi-input');
   outtext=document.getElementById('aqi-display');
-  button.onclick=function(){
-    outtext.innerHTML=intext.value;
+  button.onclick=function(event){
+    if (intext.value) {
+      outtext.innerHTML=intext.value;
+    }  
   }
 
 })();
