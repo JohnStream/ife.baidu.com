@@ -32,6 +32,9 @@ header nav a{
 	font-size: 14px;
 }
 .login_ico{
+	background: url(../images/login_ico.png);
+	width: 14px;
+	height: 17px;
 	display: inline-block;
 }
 header nav a.cur{
