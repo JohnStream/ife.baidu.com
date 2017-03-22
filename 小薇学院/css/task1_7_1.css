@@ -45,3 +45,13 @@ section.banner{
 	margin: 0 auto;
 	background: url(../images/banner.png);
 }
+.banner_info p:first-child{
+	color: #ffffff;
+	font-family:微软雅黑;
+	font-size: 60px;
+}
+.banner_info p:last-child{
+	color: #ffffff;
+	font-family:微软雅黑;
+	font-size: 21px;
+}
