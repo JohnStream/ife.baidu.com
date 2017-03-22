@@ -1,3 +1,6 @@
+body{
+	font-family: 微软雅黑;
+}
 header{
 	position: relative;
 	max-width: 1160px;
@@ -28,7 +31,7 @@ header nav a{
 	padding: 16px 18px;
 	line-height: 56px;
 	color:#000;
-	font-family: 微软雅黑;
+	
 	text-decoration: none;
 	font-size: 14px;
 }
@@ -47,11 +50,17 @@ section.banner{
 }
 .banner_info p:first-child{
 	color: #ffffff;
-	font-family:微软雅黑;
 	font-size: 60px;
 }
-.banner_info p:last-child{
+.banner_info p:nth-child(2){
 	color: #ffffff;
-	font-family:微软雅黑;
 	font-size: 21px;
+}
+.banner_info a{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 17px 115px;
+	background: #e74f4d;
 }
