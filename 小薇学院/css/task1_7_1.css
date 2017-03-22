@@ -1,6 +1,6 @@
 header{
 	position: relative;
-	max-width: 1200px;
+	max-width: 1160px;
 	margin: 0 auto;
 	height: 56px;
 }
@@ -24,14 +24,24 @@ header nav{
 	right: 0;
 }
 header nav a{
-	padding: 21px 18px;
+	padding: 16px 18px;
 	line-height: 56px;
 	color:#000;
 	font-family: 微软雅黑;
 	text-decoration: none;
 	font-size: 14px;
 }
+.login_ico{
+	display: inline-block;
+}
 header nav a.cur{
 	color: #e74a55;
 	border-bottom: 5px solid #e74a55;
+}
+header nav a:nth-child(6){
+	color: #e74a55;
+}
+section.banner{
+	max-width: 1280px;
+	margin: 0 auto;
 }
