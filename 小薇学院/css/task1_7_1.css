@@ -10,9 +10,10 @@ header .logo{
 	left: 0;
 }
 header .logo img{
-	    vertical-align: middle;
+	    
 }
-header .logo p{
+header .logo a{
+	text-decoration: none;
 	line-height: 56px;
 	display: inline-block;
 	font-size: 21px;
@@ -31,12 +32,6 @@ header nav a{
 	text-decoration: none;
 	font-size: 14px;
 }
-.login_ico{
-	background: url(../images/login_ico.png);
-	width: 14px;
-	height: 17px;
-	display: inline-block;
-}
 header nav a.cur{
 	color: #e74a55;
 	border-bottom: 5px solid #e74a55;
@@ -45,6 +40,8 @@ header nav a:nth-child(6){
 	color: #e74a55;
 }
 section.banner{
+	height: 854px;
 	max-width: 1280px;
 	margin: 0 auto;
+	background: url(../images/banner.png);
 }
