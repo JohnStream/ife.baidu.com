@@ -182,15 +182,21 @@ section figcaption{
 	position: absolute;
 	background: #121713;
 	opacity: 0.4;
-	width: 458px;
-	height: 61px;
+	width: 418px;
+	padding: 13px 20px;
 	top: 196px;
 }
 section figcaption p{
+	padding-left: 10px;
+	font-size: 26px;
+	font-family: 微软雅黑;
 	border-left: 3px #72b16a solid;
-	height: 3px;
 	color: white;
 }
 section figcaption .imginfo{
+	font-size: 12px;
 	color: #72b16a;
+}
+section .pic_artic_1 p{
+	width: 458px;
 }
