@@ -43,6 +43,7 @@ header nav a:nth-child(6){
 	color: #e74a55;
 }
 section.banner{
+	position: relative;
 	height: 854px;
 	max-width: 1280px;
 	margin: 0 auto;
@@ -63,4 +64,26 @@ section.banner{
 	text-decoration: none;
 	padding: 17px 115px;
 	background: #e74f4d;
+}
+.banner_mask{
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	opacity: 0.3;
+	position: absolute;
+	z-index: 1;
+}
+.banner_info{
+	position: absolute;
+	top:230px;
+	left: 115px;
+	z-index: 2;
+}
+.banner_info p:nth-child(2){
+	margin-top:30px;
+	margin-left:10px;
+}
+.banner_info a{
+	margin-left:10px;
+	margin-top:66px;
 }
