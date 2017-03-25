@@ -1,4 +1,6 @@
 body{
+	max-width: 1280px;
+	margin: 0 auto;
 	font-family: 微软雅黑;
 }
 header{
@@ -115,8 +117,11 @@ section.banner{
 .new_life_info div i.five{
 	background-position: 0px 42px;
 }
-.new_life_info div p{
+.new_life_info .father .content p{
 	margin-top:45px;
 	height: 50px;
 	border-right:2px solid #bbbbbb;
+}
+.about_new_life{
+
 }
