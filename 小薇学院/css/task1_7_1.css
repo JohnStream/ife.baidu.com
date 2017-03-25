@@ -87,14 +87,36 @@ section.banner{
 }
 .new_life_info{
 	margin: 0 auto;
-	height: 854px;
+	height: 250px;
 	max-width: 1280px;
 }
-.new_life_info div{
+.new_life_info div.father{
 	text-align: center;
 	display: inline-block;
 	width: calc(25%);
 	height: 250px;
-	background: blue;
-
+}
+.new_life_info div.father i{
+	margin: 0 auto;
+	background: url(../images/ico.png);
+	display: block;
+	height: 42px;
+	width: 42px;
+}
+.new_life_info div.content{
+	margin:45px auto;
+}
+.new_life_info div i.two{
+	background-position: 42px 0px;
+}
+.new_life_info div i.three{
+	background-position: 42px 42px;
+}
+.new_life_info div i.five{
+	background-position: 0px 42px;
+}
+.new_life_info div p{
+	margin-top:45px;
+	height: 50px;
+	border-right:2px solid #bbbbbb;
 }
