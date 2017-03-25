@@ -1,4 +1,5 @@
 body{
+	min-width: 1000px;
 	max-width: 1280px;
 	margin: 0 auto;
 	font-family: 微软雅黑;
@@ -123,5 +124,90 @@ section.banner{
 	border-right:2px solid #bbbbbb;
 }
 .about_new_life{
-
+	background-color: #edecec;
+}
+.about_new_life i{
+	margin: 0 auto;
+	display: block;
+	width: 91px;
+	height: 92px;
+	background:url(../images/ico_about_newLife.png);
+}
+.about_new_life{
+	padding: 85px 0;
+	text-align: center;
+}
+.about_new_life p{
+	color: #a1a1a1;
+	margin-top:50px;
+	font-family: 黑体;
+	font-size: 54px;
+}
+.search_new_life{
+	padding-bottom: 130px;
+	padding-top:52px;
+	text-align: center;
+	background: url(../images/seemap.png);
+}
+.search_new_life h3{
+	color: #ffffff;
+	font-family: 微软雅黑;
+	font-size: 21px;
+}
+.search_new_life p{
+	margin-top:17px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 微软雅黑;
+}
+.search_new_life input{
+	height: 34px;
+	width: 234px;
+	border: 2px #bf4f49 solid;
+	margin-top:54px;
+}
+.search_new_life a{
+	text-decoration: none;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #be4e48;
+	padding: 10px 103px;
+}
+.activity{
+	background-color: #f7f7f7;
+}
+.activity figure{
+	padding: 100px 0px;
+	margin-right:34px;
+	text-align: center;
+	display: inline-block;
+	height: 390px;
+}
+.activity figure figcaption{
+}
+.activity figure figcaption p{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	line-height: 28px;
+}
+.activity figure figcaption p:first-child{
+	color: #636363;
+}
+.activity figure figcaption p:last-child{
+	color: #dadada;
+}
+.activity figure img{
+	background: #fff;
+	padding: 13px 8px;
+	width: 200px;
+	height: 310px;
+}
+.act1_info p:first-child{
+	font-size: 20px;
+	letter-spacing: 15px;
+}
+.act{
+	width: 1000px;
+	margin:auto 140px;
 }
