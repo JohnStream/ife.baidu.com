@@ -333,6 +333,12 @@ section.banner{
 .love_life_right{
 	float: right;
 }
+.love_life_right .r_love_life{
+	position: relative;
+}
+.love_life_right .r_love_life:before{
+	
+}
 .love_life_center{
 
 	text-align: center;
@@ -353,5 +359,224 @@ section.banner{
     border: 1px solid #e74f4d;
     outline: none;
 }
+.login{
+			height: 750px;
+			width: 100%;
+		}
+		.loginTop{
+			width: calc(100% - 2px);
+			height: 298px;
+			position: relative;
+			border: 1px solid #fff;
+		}
+		.loginTopTit{
+			margin-top: 120px;
+			margin-left: calc(50% - 220px);
+			width: 440px;
+			height: 48px;
+			font-size: 20px;
+			text-align: center;
+		}
+		.loginTopTit hr{
+			border:1px solid #eb6664;
+			width: 30px;
+			height: 0;
+			text-align: center;
+		}
+		.loginTopTxt{
+			font-size: 12px;
+			color: #b0b0b0;
+			text-align: center;
+			margin-left: calc(50% - 220px);
+			width: 440px;
+			height: 50px;
+		}
+		.loginLeft{
+			width: 280px;
+			height: 282px;
+			float: left;
+			margin-left: calc(50% - 500px);
+		}
+		.loginRight{
+			width: 640px;
+			height: 282px;
+			float: left;
+			margin-left: 76px;
+		}
+		.loginLeftTit{
+			margin-bottom: 40px;
+		}
+		.loginLeftTit h5{
+			font-size: 14px;
+			color: #666160;
+			margin: 0;
+			padding:0;
+		}
+		.loginLeftTit p{
+			font-size: 12px;
+			color: #9d9b9a;
+			margin: 17px 0;
+			line-height: 22px;
+			margin-bottom: 0;
+		}
+		.loginLeftMore{
+			position: absolute;
+		}
+		.loginLeftMore p{
+			margin: 0 ;
+			padding: 0;
+			margin-left: 8px;
+			display: inline;
+		}
+		.loginLeftMore img{
+			margin-left: 230px;
+			display: inline;
+		}
+		.loginLeftMore a{
+			text-decoration: none;
+		}
+		.loginRightName{
+			float: left;
+			width: 310px;
+			height: 40px;
+			background-color: #ededef;
+			border: none;
+			outline: none;
+			color: #787474;
+			text-indent:10px;
+		}
+		.loginRightAge{
+			margin-left: 18px;
+			float: left;
+			width: 310px;
+			height: 40px;
+			background-color: #ededef;
+			border: none;
+			outline: none;
+			color: #787474;
+			text-indent:10px;
+		}
+		.loginRightTell{
+			margin-top: 14px;
+			float: left;
+			width: 310px;
+			height: 40px;
+			background-color: #ededef;
+			border: none;
+			outline: none;
+			color: #787474;
+			text-indent:10px;
+		}
+		.loginRightAdd{
+			margin-top: 14px;
+			margin-left: 18px;
+			float: left;
+			width: 310px;
+			height: 40px;
+			background-color: #ededef;
+			border: none;
+			outline: none;
+			color: #787474;
+			text-indent:10px;
+		}
+		.loginRightDream{
+			text-indent: 17px;
+			margin-top: 14px;
+			float: left;
+			width: 640px;
+			height: 110px;
+			padding: 0;
+			border: none;
+			outline: none;
+			background-color: #ededef;
+			color: #787474;
+			padding-top: 10px;
+			resize : none;
+		}
+		.loginRightBut{
+			margin-top: 5px;
+			width: 100%;
+			height: 40px;
+			border: none;
+			outline: none;
+			background-color: #ededef;
+			color: #787474;
+			text-align: center; 
+		} 
+
+.contact{	
+			height: 358px;
+			background-color: #32353e;
+			width: 100%;
+		}
+		.contactBox{
+			width:514px;
+			height: 164px;
+			padding-top: 36px;
+			margin-left: calc(50% - 257px);
+		}
+		.contactBox h3{
+			color: #fff;
+			text-align: center;
+			font-size: 19px;
+			margin-top: 12px;
+		}
+		.contactBox p{
+			color: #fff;
+			font-size: 12px;
+			text-align: center;
+		}
+		.contactInp{
+			margin-top: 31px;
+		}
+		.contactInp1{
+			width: 429px;
+			height: 38px;
+			border: 1px solid #989a9e;
+			float: left;
+			line-height: 35px;
+		}
+		.contactBut{
+			width: 80px;
+			height: 42px;
+			float: left;
+			background-color: #6f7178;
+			border:none;
+			outline: none;
+			color: #fff;
+			letter-spacing: 9px;
+		}
+		.contactImg{
+			width: 514px;
+			height: 27px;
+			margin-top: 110px;
+		}
+		.contactImgBox{
+			width: 220px;
+			height: 25px;
+			margin-left: calc(50% - 105px);
+		}
+		footer{
+			width: 100%;
+			height: 57px;
+			background-color: #2f2f38;
+		}
+		.footerLeft{
+			margin-left: 98px;
+			margin-top: 29px;
+			float: left;
+			color: #fff;
+			font-size: 12px;
+		}
+		.footerRight{
+			margin-right: 98px;
+			margin-top: 29px;
+			float: right;
+			font-size: 12px;
+		}
+		.footerRight a{
+			text-decoration:none;
+			color: #fff;
+		}
 
 
