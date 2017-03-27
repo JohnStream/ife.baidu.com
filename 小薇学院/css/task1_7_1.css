@@ -1,3 +1,15 @@
+/* ==========
+ 去除浮动
+   ========== */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 body{
 	min-width: 1000px;
 	max-width: 1280px;
@@ -211,3 +223,91 @@ section.banner{
 	width: 1000px;
 	margin:auto 140px;
 }
+.new_life_right{
+	height: 563px;
+	width: 34%;
+
+	float: right;
+}
+.new_life_right .right_info{
+
+	margin: 161px auto;
+}
+.new_life_right .right_info h3{
+		text-align: center;
+		font-size: 21px;
+}
+.new_life_right .right_info h3 span{
+	color: #e74f4d;
+}
+.new_life_right .right_info p{
+	width: 80%;
+	margin: 0 auto;
+	line-height: 34px;
+	color: #c9c9c9;
+	font-size: 12px;
+}
+.new_life_right a{
+	margin: 0px auto;
+	margin-top:50px;
+	text-decoration: none;
+	width: 48px;
+	height: 14px;
+	display: block;
+	padding: 10px 29px;
+	font-size: 12px;
+	color: #e4666a;
+	border:1px solid #e4666a;
+}
+.new_life_right ul{
+	margin-top:25px;
+	text-align: center;
+}
+.new_life_right ul li{
+	border:1px solid #9c9c9c;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background:#ffffff;
+	
+}
+.new_life_right ul li.cur{
+	background: #9c9c9c;
+}
+
+.new_life_left{
+	text-align:center;
+	padding-top:130px;
+	background: url(../images/new_life.png);
+	height: 433px;
+	width: 66%;
+	float: left;
+}
+.new_life_left .left_info{
+}
+.new_life_left .left_info p:first-child{
+	font-size: 50px;
+	color: #ffffff;
+}
+.new_life_left .left_info p:nth-child(2){
+	font-size: 157.79px;
+	color: #ffffff;
+}
+.new_life_left .left_info p:nth-child(3){
+	font-size:22px;
+	color: #ffffff;
+}
+.new_life_left .left_info p:last-child{
+	font-size:22px;
+	color: #ffffff;
+}
+.love_life div{
+	height: 520px;
+	width: calc(33.33333%);
+}
+.love_life_left{
+	float: left;
+}
+
+
