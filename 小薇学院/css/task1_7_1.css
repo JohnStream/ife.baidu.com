@@ -302,12 +302,56 @@ section.banner{
 	font-size:22px;
 	color: #ffffff;
 }
-.love_life div{
+.love_life .love_life_div{
 	height: 520px;
 	width: calc(33.33333%);
 }
 .love_life_left{
+	background: #e74f4d;
 	float: left;
+}
+.l_love_life{
+	text-align: center;
+	margin:0 auto;
+	margin-top:168px;
+}
+.l_love_life p{
+	line-height: 28px;
+	font-size: 18px;
+	color: #fff;
+}
+.l_love_life input{
+	margin: 0 auto;
+	width: 167px;
+    height: 41px;
+    color: #e74f4d;
+    background-color: #fff;
+    border: 1px solid #e74f4d;
+    outline: none;
+
+}
+.love_life_right{
+	float: right;
+}
+.love_life_center{
+
+	text-align: center;
+	margin: 0 100px;
+	margin-top:168px;
+}
+.love_life_center p{
+	line-height: 28px;
+	font-size: 18px;
+	color: #000;
+}
+.love_life_center input{
+	margin: 0 auto;
+	width: 167px;
+    height: 41px;
+    color: #e74f4d;
+    background-color: #fff;
+    border: 1px solid #e74f4d;
+    outline: none;
 }
 
 
