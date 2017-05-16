@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>任务四：基础JavaScript练习（一）</title>
+    <meta charset="UTF-8">
+    <title>任务四：基础JavaScript练习（一）</title>
+    <style>
+        li{
+            display:inline-block;
+            background-color: #cd4a48;
+            color: #f3f6f7;
+            font-size:12px;
+            text-align:center;
+            padding:5px;
+            margin:5px;
+        }
+    </style>
 </head>
 <body>
-	<div class="que">
-	</div>
+    <input type="text" id="inNum" name="number">
+    <button id="btnLeftIn">左侧入</button>
+    <button id="btnRightIn">右侧入</button>
+    <button id="btnLeftOut">左侧出</button>
+    <button id="btnRightOut">右侧出</button>
+    <ul id="outNum"></ul>
+
+    <script type="text/javascript">
+    var inNum = document.getElementById("inNum");
+    var outNum = document.getElementById("outNum");
+    var btnLeftIn = document.getElementById("btnLeftIn");
+    var btnRightIn = document.getElementById("btnRightIn");
+    var btnLeftOut = document.getElementById("btnLeftOut");
+    var btnRightOut = document.getElementById("btnRightOut");
+
+    function insert(direction) {
+        if (inNum.value == "") {
+            alert("请输入需要插入的值");
+            inNum.focus();
+        } else if (isNaN(inNum.value)) {
+            alert("只能输入数字");
+            inNum.value = "";
+            inNum.focus();
+        } else {
+            var oLi = document.createElement("li");
+            oLi.innerHTML = inNum.value;
+            if (direction === "left") {
+                outNum.insertBefore(oLi, outNum.firstChild);
+            } else if (direction === "right") {
+                outNum.appendChild(oLi);
+            }
+        }
+    }
+
+    function del(node, direction) {
+        if (outNum.childNodes.length <= 0) {
+            alert("不存在元素可以删除");
+            return false;
+        } else {
+            if (direction === "left") { //点击左侧按钮删除
+                alert("删除数字：" + outNum.firstChild.innerText + "！");
+                outNum.removeChild(outNum.firstChild);
+            } else if (direction === "right") {
+                alert("删除数字：" + outNum.lastChild.innerText + "！");
+                outNum.removeChild(outNum.lastChild);
+            } else {
+                alert("删除数字：" + outNum.removeChild(node).innerText + "！");
+            }
+        }
+    }
+    btnLeftIn.onclick = function () {
+        insert("left");
+    };
+    btnRightIn.onclick = function () {
+        insert("right");
+    };
+    btnLeftOut.onclick = function () {
+        del(-1, "left");
+    };
+    btnRightOut.onclick = function () {
+        del(-1, "right");
+    };
+    outNum.onclick = function () {
+        del(event.target)
+    };
+
+    </script>
 </body>
 </html>
